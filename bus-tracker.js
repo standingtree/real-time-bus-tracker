@@ -1,7 +1,7 @@
 // get elements from the DOM
 
 body = document.body
-const bostonLngLat = [-71.0589, 42.3601]
+const bostonLngLat = [-71.10110, 42.35173]
 let timer
 let locationData
 let currentMarkers = []
