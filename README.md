@@ -7,6 +7,7 @@ How to run:
 
 Roadmap: 
 - Allow user to change routes via a dropdown menu
+- Connect the "current stop" integer code to a plain English stop name    
 - Improve label positioning for bus icons on map so that image and text are visibly separated
 - Allow user to select different datapoints to view for currently active buses
 
