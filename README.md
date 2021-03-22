@@ -12,3 +12,4 @@ Roadmap:
 - Allow user to select different datapoints to view for currently active buses
 
 License: MIT 
+Contact: Viren // standingtreetechnologies@gmail.com
