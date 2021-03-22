@@ -11,6 +11,6 @@ Roadmap:
 - Improve label positioning for bus icons on map so that image and text are visibly separated
 - Allow user to select different datapoints to view for currently active buses
 
-License: MIT
+License: MIT 2021
 
 Contact: Viren // standingtreetechnologies@gmail.com
