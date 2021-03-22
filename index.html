@@ -4,82 +4,19 @@
     <meta charset="UTF-8">
     <title>Real Time MTA Bus Tracker</title>
 
-    <!--    script source-->
-    <script src = 'bus-tracker.js'></script>
+    <!--   JS source-->
+    <script src = 'mapanimation.js'></script>
 
     <!--    google fonts stylesheet-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap">
-    <style>
-        /*sets the default body font properties*/
-        body {
-          font-family: "Roboto";
-          font-size: 4em;
-          /*font-weight: bold;*/
-        }
 
-        .on {
-            color: orange;
-        }
+    <!--    custom stylesheet -->
+    <link rel="stylesheet" href="styles.css">
 
-        #infobox {
-            background: white;
-            height: fit-content;
-            width: fit-content;
-            font-size: 12pt;
-            color: orange;
-            font-weight: bold;
-            border-radius: 15px;
-            padding: 10px;
-            margin: 10px;
-            position: relative;
-            top: 10px;
-            left: 10px
-        }
-
-        button {
-            background: white;
-            height: 2em;
-            font-size: 22pt;
-            color: slategrey;
-            font-weight: bold;
-            border-radius: 15px;
-            border-color: dodgerblue;
-            position: relative;
-            top: 20px;
-            left: 20px
-        }
-    </style>
-
-
-    <!--    maps import-->
+    <!--    maps import -->
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.js"></script>
     <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css" rel="stylesheet">
-    <style>
-        body { margin: 0; padding: 0; }
-        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
-        .marker {
-            background-image: url('bus-icon.png');
-            background-size: cover;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            cursor: pointer;
-        }
-        .mapboxgl-popup-close-button {
-            display: none;
-        }
-        .mapboxgl-popup-content {
-            background: white;
-            font-weight: bold;
-            width: 2em;
-            height: 1em;
-        }
-        .mapboxgl-popup-content-wrapper {
-            padding: 1%;
-        }
-
-    </style>
 
 </head>
 
@@ -100,7 +37,6 @@
       center: bostonLngLat,
       zoom: 13
     });
-
 
 </script>
 </html>

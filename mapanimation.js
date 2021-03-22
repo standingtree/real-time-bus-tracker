@@ -7,10 +7,8 @@ let locationData
 let currentMarkers = []
 
 
-
-
 let makeOrderedList = (items) => {
-  // create an ordered list
+  // create an ordered list and add as a child node to the body
   div = document.createElement('div')
   ol = document.createElement('ol')
 
@@ -144,6 +142,7 @@ async function getBusLocationData(){
   return json.data;
 
 }
+
 
 
 

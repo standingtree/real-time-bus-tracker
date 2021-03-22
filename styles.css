@@ -1,0 +1,69 @@
+ body {
+     font-family: "Roboto";
+     font-size: 4em;
+     margin: 0;
+     padding: 0;
+ }
+
+ /*when button is click on */
+.on {
+    color: orange;
+}
+
+/*info box style (for bus list)*/
+#infobox {
+    background: white;
+    height: fit-content;
+    width: fit-content;
+    font-size: 12pt;
+    color: orange;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    top: 10px;
+    left: 10px
+}
+
+button {
+    background: white;
+    height: 2em;
+    font-size: 22pt;
+    color: slategrey;
+    font-weight: bold;
+    border-radius: 15px;
+    border-color: dodgerblue;
+    position: relative;
+    top: 20px;
+    left: 20px
+}
+
+/*mapbox styles */
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.marker {
+    background-image: url('assets/bus-icon.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.mapboxgl-popup-close-button {
+    display: none;
+}
+.mapboxgl-popup-content {
+    background: white;
+    font-weight: bold;
+    width: 2em;
+    height: 1em;
+}
+.mapboxgl-popup-content-wrapper {
+    padding: 1%;
+}
